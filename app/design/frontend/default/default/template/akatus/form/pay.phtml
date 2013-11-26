@@ -8,8 +8,6 @@
 	<?php echo $this->getMethod()->getConfigData('message'); ?>
 </div>
 
-<script src="<?php echo $this->getSkinUrl('akatus/jquery.js') ?>"></script>
-
 <ul class="form-list" id="payment_form_<?php echo $_code ?>" style="display:block;">
 	
 	<?php 
@@ -329,8 +327,9 @@
 
 </ul>
 
-<script>
+<script type="text/javascript">
 //<![CDATA[
+           
 	function ffBoletoAkatus(){
 		document.getElementById("<?php echo $_code ?>_check_formapagamento").value="boleto";
 		
@@ -554,5 +553,7 @@
 	       }
 
 	 }
+
+
 	//]]>
-</script>
+	 </script>

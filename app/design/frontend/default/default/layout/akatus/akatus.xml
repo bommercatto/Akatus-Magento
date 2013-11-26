@@ -3,6 +3,8 @@
 	<checkout_onepage_index translate="label">
 		<reference name="head">
 			<action method="addItem"><type>skin_js</type><name>akatus/jquery.js</name></action>
+			 <action method="setText"><text><![CDATA[<script type="text/javascript">jQuery.noConflict();</script>]]></text>
+        </action>
 		</reference>
 	</checkout_onepage_index>
 </layout>
