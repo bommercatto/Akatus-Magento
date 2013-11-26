@@ -144,5 +144,15 @@
             </akatus>
         </routers>
     </admin>
+    
+    <frontend>
+    	<layout>
+			<updates>
+				<company>
+					<file>company.xml</file>
+				</company>
+			</updates>
+		</layout>
+	</frontend>
 	
 </config>
