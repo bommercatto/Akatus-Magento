@@ -8,3 +8,5 @@ app/etc							app/etc
 skin/frontend/default			skin/frontend/base
 
 skin/frontend/base				skin/frontend/base
+
+akatus_response.php				akatus_response.php			
