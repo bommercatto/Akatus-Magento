@@ -149,7 +149,7 @@
     	<layout>
 			<updates>
 				<company>
-					<file>company.xml</file>
+					<file>akatus/akatus.xml</file>
 				</company>
 			</updates>
 		</layout>
