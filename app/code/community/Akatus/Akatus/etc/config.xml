@@ -148,9 +148,9 @@
     <frontend>
     	<layout>
 			<updates>
-				<company>
+				<akatus>
 					<file>akatus/akatus.xml</file>
-				</company>
+				</akatus>
 			</updates>
 		</layout>
 	</frontend>
