@@ -1,6 +1,6 @@
            
 	function ffBoletoAkatus(){
-		document.getElementById("<?php echo $_code ?>_check_formapagamento").value="boleto";
+		document.getElementById("akatus_check_formapagamento").value="boleto";
 		
 			
 		var cc =  document.getElementById('cc');
@@ -20,7 +20,7 @@
 	
 	
 	function ffCartaodeCredito(){
-		document.getElementById("<?php echo $_code ?>_check_formapagamento").value="cartaodecredito";
+		document.getElementById("akatus_check_formapagamento").value="cartaodecredito";
 
 		var tef = document.getElementById('tef');
 		if(typeof(tef) != 'undefined' && tef != null)
@@ -33,7 +33,7 @@
 	}
 
 	function ffTef(){
-		document.getElementById("<?php echo $_code ?>_check_formapagamento").value="tef";
+		document.getElementById("akatus_check_formapagamento").value="tef";
 
 		var cc =  document.getElementById('cc');
 		if(typeof(cc) != 'undefined' && cc != null)
