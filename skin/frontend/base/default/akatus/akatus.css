@@ -1,0 +1,48 @@
+#tablePay td { vertical-align:middle; }
+#tablePay td { padding-bottom:2px; }
+.cc_inactive { border:1px solid #f0f1f1; margin-right:2px; cursor:pointer; margin-bottom:8px; }
+.cc_active { border:1px solid #cccdce; margin-right:2px; cursor:pointer; margin-bottom:8px; }
+.cc_active.last { margin-right:0 !important; }
+.cc_inactive.last { margin-right:0 !important; }
+#tablePay .validation-advice { margin:0; }
+#tablePay .input-text { width:230px; }
+#tablePay td.label { padding-right:10px; }
+#cc_bandeiras img{
+    width: 45px;
+    margin-right: 0 !important;
+}
+#cc_bandeiras img.cc_inactive{
+    border-color: #FFF;
+}
+
+
+#overlink{
+    text-decoration:none;
+    color:#f30;	
+}
+#tipsimg{border:none;word-wrap: normal; width: 250px;  }
+#tipsul, #tipsli{
+    margin:0;
+    padding:0;
+}
+#tipsli{
+    list-style:none;
+    float:left;
+    display:inline;
+    margin-right:10px;
+}
+
+#preview{
+    position:absolute;
+    border:1px solid #ccc;
+    background:#333;
+    padding:5px;
+    display:none;
+    color:#fff;
+    width:249px;
+    line-height: 17px;
+}
+
+.form-list label {
+    float: none;
+}

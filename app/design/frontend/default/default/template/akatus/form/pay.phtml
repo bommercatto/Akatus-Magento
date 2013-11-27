@@ -7,7 +7,6 @@
 <div>
 	<?php echo $this->getMethod()->getConfigData('message'); ?>
 </div>
-<script src="<?php echo $this->getSkinUrl('akatus/jquery.js') ?>"></script>
 
 <ul class="form-list" id="payment_form_<?php echo $_code ?>" style="display:block;">
 	
@@ -48,73 +47,6 @@
                           <div style="position: relative; margin-top: 30px; display: none;" id="cc" name="cc">
                             <sup class="required-sup-info"><span>*</span> campos obrigatórios</sup>
 
-                            <style>
-                                #tablePay td { vertical-align:middle; }
-                                #tablePay td { padding-bottom:2px; }
-                                .cc_inactive { border:1px solid #F0F1F1; margin-right:2px; cursor:pointer; margin-bottom:8px; }
-                                .cc_active { border:1px solid #CCCDCE; margin-right:2px; cursor:pointer; margin-bottom:8px; }
-                                .cc_active.last { margin-right:0 !important; }
-                                .cc_inactive.last { margin-right:0 !important; }
-                                #tablePay .validation-advice { margin:0; }
-                                #tablePay .input-text { width:230px; }
-                                #tablePay td.label { padding-right:10px; }
-                                #cc_bandeiras img{
-                                    width: 45px;
-                                    margin-right: 0 !important;
-                                }
-                                #cc_bandeiras img.cc_inactive{
-                                    border-color: #FFF;
-                                }
-
-
-                                #overlink{
-                                    text-decoration:none;
-                                    color:#f30;	
-                                }
-                                p{
-                                    clear:both;
-                                    margin:0;
-                                    padding:.5em 0;
-                                }
-                                pre{
-                                    display:block;
-                                    font:100% "Courier New", Courier, monospace;
-                                    padding:10px;
-                                    border:1px solid #bae2f0;
-                                    background:#e3f4f9;	
-                                    margin:.5em 0;
-                                    overflow:auto;
-                                    width:800px;
-                                }
-
-                                #tipsimg{border:none;word-wrap: normal; width: 250px;  }
-                                #tipsul, #tipsli{
-                                    margin:0;
-                                    padding:0;
-                                }
-                                #tipsli{
-                                    list-style:none;
-                                    float:left;
-                                    display:inline;
-                                    margin-right:10px;
-                                }
-
-                                #preview{
-                                    position:absolute;
-                                    border:1px solid #ccc;
-                                    background:#333;
-                                    padding:5px;
-                                    display:none;
-                                    color:#fff;
-                                    width:249px;
-                                    line-height: 17px;
-                                }
-
-                                .form-list label {
-                                    float: none;
-                                }
-
-                            </style>
                             <div id="tablePay">
                                 <div class="full">
                                     <label class="required"><sup>*</sup> Nome no cartão</label>

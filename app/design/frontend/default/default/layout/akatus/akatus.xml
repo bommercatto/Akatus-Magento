@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout>
+    <checkout_onepage>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>akatus/akatus.css</name></action>
+            <action method="addItem"><type>skin_js</type><name>akatus/jquery.js</name></action>
+        </reference>
+    </checkout_onepage>
+</layout>
