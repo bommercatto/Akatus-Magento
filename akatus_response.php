@@ -155,7 +155,9 @@ function updateOrder($order, $newOrderState) {
     } else if ($order->getTotalPaid() == 0 && $newOrderState === Mage_Sales_Model_Order::STATE_PROCESSING) {
 
         $invoice = $order->prepareInvoice();
-        $invoice->register()->capture();            
+        $invoice->register()->capture();
+        //send email
+        $invoice->sendEmail(true);            
         Mage::getModel('core/resource_transaction')
             ->addObject($invoice)
             ->addObject($invoice->getOrder())
