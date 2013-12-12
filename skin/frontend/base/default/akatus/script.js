@@ -30,6 +30,11 @@
 
 		document.getElementById("cc").style.display="block";
 		
+		
+		if ($('billing:taxvat')) {
+	        $('akatus_check_cpf').value = $('billing:taxvat').getValue();
+		}
+		
 	}
 
 	function ffTef(){
@@ -223,4 +228,8 @@
 
 	 }
 
+	 
+	 if ($('billing:taxvat')) {
+	      $('akatus_check_cpf').value = $('billing:taxvat').getValue();
+		}
 
