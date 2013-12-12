@@ -31,8 +31,8 @@
 		document.getElementById("cc").style.display="block";
 		
 		
-		if ($('billing:taxvat')) {
-	        $('akatus_check_cpf').value = $('billing:taxvat').getValue();
+		if ($('billing:vat_id')) {
+	        $('akatus_check_cpf').value = $('billing:vat_id').getValue();
 		}
 		
 	}
