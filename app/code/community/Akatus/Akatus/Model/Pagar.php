@@ -703,7 +703,7 @@ class Akatus_Akatus_Model_Pagar extends Mage_Payment_Model_Method_Abstract
 					$this->SalvaIdTransacao($orderId, $transacaoId);
 					
 					$msg='Transação realizada com sucesso. Clique na url abaixo para imprimir seu boleto.<br/>';
-                    $msg.="<a href='".$url_destino."' target='_blank'><img src='" . $url_base ."skin/frontend/default/default/images/boleto.gif' /></a>";
+                    $msg.="<a href='".$url_destino."' target='_blank'><img src='" . $url_base ."skin/frontend/base/default/images/boleto.gif' /></a>";
 					
 					Mage::getSingleton('checkout/session')->addSuccess(Mage::helper('checkout')->__($msg));
 				}
@@ -718,7 +718,7 @@ class Akatus_Akatus_Model_Pagar extends Mage_Payment_Model_Method_Abstract
 					$this->SalvaIdTransacao($orderId, $transacaoId);
 					
 					$msg='Transação realizada com sucesso. Clique na url abaixo e você será redirecionado para seu banco.<br/>';
-                    $msg.="<a href='".$url_destino."' target='_blank'><img src='" . $url_base ."/skin/frontend/default/default/images/tef.gif' /></a>";
+                    $msg.="<a href='".$url_destino."' target='_blank'><img src='" . $url_base ."/skin/frontend/base/default/images/tef.gif' /></a>";
 					
 					Mage::getSingleton('checkout/session')->addSuccess(Mage::helper('checkout')->__($msg));
 				}	
