@@ -15,12 +15,24 @@
     border-color: #FFF;
 }
 
-
-#overlink{
-    text-decoration:none;
-    color:#f30;	
+#cc {
+    position: relative; margin-top: 10px;
 }
-#tipsimg{border:none;word-wrap: normal; width: 250px;  }
+#cc .required-sup-info {
+    float: right;
+    color: #eb340a;
+    margin-bottom: -20px;
+}
+#cc .full { padding-top: 5px; clear: both; }
+#cc .full.secure-code input { float: left; }
+#cc .data_area { }
+#overlink{
+    float: left;
+    text-decoration: none;
+    color: #eb340a;
+    margin-top: 5px;
+}
+#tipsimg{ border:none;word-wrap: normal; width: 250px;  }
 #tipsul, #tipsli{
     margin:0;
     padding:0;
