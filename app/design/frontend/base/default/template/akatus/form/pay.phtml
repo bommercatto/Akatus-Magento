@@ -57,7 +57,7 @@
                                 <div class="full">
                                     <label class="required"><em>*</em> CPF do proprietário do cartão</label>
                                     <div class="data_area">
-                                        <input title="<?php echo $this->__('Check CPF:') ?>" type="text" size="19" name="payment[check_cpf]" id="<?php echo $_code ?>_check_cpf" class="input-text required-entry" >
+                                        <input title="<?php echo $this->__('Check CPF:') ?>" value="<?php echo $this->getCustomer()->getTaxVat();?>" type="text" size="19" name="payment[check_cpf]" id="<?php echo $_code ?>_check_cpf" class="input-text required-entry" >
                                     </div>
                                 </div>							
                                 <div class="full">
