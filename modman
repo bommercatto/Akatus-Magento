@@ -3,6 +3,5 @@
 app/design/frontend/base        app/design/frontend/base
 app/code                        app/code
 app/etc                         app/etc
-skin/frontend/default           skin/frontend/base
-skin/frontend/base              skin/frontend/base
+skin/frontend/base/default/akatus              skin/frontend/base/default
 akatus_response.php             akatus_response.php
