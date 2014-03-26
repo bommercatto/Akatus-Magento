@@ -6,4 +6,4 @@ app/etc                         app/etc
 skin							skin
 akatus_response.php             akatus_response.php
 skin/frontend/base/default/akatus/images/boleto.gif              skin/frontend/base/default/images/boleto.gif
-skin/frontend/base/default/akatus/images/cvv.jpg              skin/frontend/base/default/images/cvv.gif
+
