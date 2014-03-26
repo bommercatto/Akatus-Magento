@@ -3,5 +3,6 @@
 app/design/frontend/base        app/design/frontend/base
 app/code                        app/code
 app/etc                         app/etc
-skin/frontend/base/default/akatus              skin/frontend/base/default
+skin							skin
 akatus_response.php             akatus_response.php
+skin/frontend/base/default/akatus/images/boleto.gif              skin/frontend/base/default/images/boleto.gif
