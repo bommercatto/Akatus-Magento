@@ -3,7 +3,7 @@
 app/design/frontend/base        app/design/frontend/base
 app/code                        app/code
 app/etc                         app/etc
-skin							skin
+skin/frontend/base              skin/frontend/base
 akatus_response.php             akatus_response.php
 skin/frontend/base/default/akatus/images/boleto.gif              skin/frontend/base/default/images/boleto.gif
-
+skin/frontend/base/default/akatus/images/cvv.jpg              skin/frontend/base/default/images/cvv.gif
