@@ -154,5 +154,23 @@
 			</updates>
 		</layout>
 	</frontend>
-	
+	<adminhtml>
+        <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+
+                    <akatus module="akatus">
+                        <title>akatus</title>
+                        <sort_order>71</sort_order>
+                        <children>
+                        </children>
+                    </akatus>
+            </admin>
+        </resources>
+    </acl>
+    </adminhtml>
 </config>
