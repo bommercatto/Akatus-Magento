@@ -52,25 +52,29 @@ class Akatus_Akatus_Block_Info_Pay extends Mage_Payment_Block_Info
 				Mage::helper('payment')->__('Bandeira') => $info->getCheckTefbandeira()
 			);
 		}
+        //Acl Akatus
+        if(Mage::getSingleton('admin/session')->isAllowed('admin/akatus')){
 
+            if ($this->isToShowRefund($info->getOrder())) {
 
-        if ($this->isToShowRefund($info->getOrder())) {
+                $estornoURL = $this->getEstornoURL($info->getOrder()->getId());
 
-            $estornoURL = $this->getEstornoURL($info->getOrder()->getId());
+                echo ("<table>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <strong>Estorno:</strong>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td><a href ='$estornoURL'>Solicitar estorno</a></td>
+                                </tr>
+                            </tbody>
+                        </table>");
+            }
 
-            echo ("<table>
-                        <tbody>
-                            <tr>
-                                <th>
-                                    <strong>Estorno:</strong>
-                                </th>
-                            </tr>
-                            <tr>
-                                <td><a href ='$estornoURL'>Solicitar estorno</a></td>
-                            </tr>
-                        </tbody>
-                    </table>");
         }
+        
 
 		$transport->addData($array);
 		return $transport;
