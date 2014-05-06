@@ -166,9 +166,8 @@
                     <akatus module="akatus">
                         <title>akatus</title>
                         <sort_order>71</sort_order>
-                        <children>
-                        </children>
                     </akatus>
+                </children>
             </admin>
         </resources>
     </acl>
