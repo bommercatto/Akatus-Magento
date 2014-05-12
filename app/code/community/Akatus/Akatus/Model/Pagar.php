@@ -521,10 +521,7 @@ class Akatus_Akatus_Model_Pagar extends Mage_Payment_Model_Method_Abstract
 						<tipo>residencial</tipo>
 						<numero>'.$consumer_tel.'</numero>
 					</telefone>
-                    <telefone>
-                        <tipo>celular</tipo>
-                        <numero>'.$consumer_cel.'</numero>
-                    </telefone>
+                    
 				</telefones>
 			</pagador>';
 			
