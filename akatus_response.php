@@ -1,5 +1,4 @@
 ﻿<?php
-
 class StatusTransacaoAkatus
 {
     const AGUARDANDO_PAGAMENTO  = 'Aguardando Pagamento';
